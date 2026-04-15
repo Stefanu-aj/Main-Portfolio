@@ -16,7 +16,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="text-sm text-teal-500 mb-4"
         >
-          Hi, I’m Adeola Isaiah
+          Hi! I’m Stephen Ajao
         </motion.p>
 
         <motion.h1
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-4xl sm:text-5xl md:text-6xl font-semibold text-gray-900 leading-tight"
         >
-          I design & build <br />
+          I design, build & manage <br />
           <span className="bg-gradient-to-r from-teal-500 to-blue-500 text-transparent bg-clip-text">
             web applications
           </span>
@@ -54,7 +54,7 @@ export default function Hero() {
             View My Work →
           </a>
 
-          <a href="/files/Adeola Omotoyinbo CV copy (2).pdf" download>
+          <a href="/files/Stephen Ajao_Resume.pdf" download>
             <button className="bg-teal-600 text-white px-6 py-3 rounded-lg text-sm font-medium shadow-sm hover:bg-teal-700 transition">
               Download CV
             </button>
@@ -67,6 +67,9 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.4 }}
           className="mt-10 flex items-center justify-center gap-6 text-gray-400 text-sm"
         >
+          <span>HTML5</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
           <span>React</span>
           <span>Tailwind</span>
           <span>Node.js</span>

@@ -28,8 +28,8 @@ export default function AboutSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight mb-6"
           >
-            A Full-Stack Developer Focused on Building Clean & Scalable Web
-            Applications
+            A Full-Stack Developer Adept At Building Scalable And Efficient Web Solutions 
+            That Provides Seamless User Experiences.
           </motion.h2>
 
           <motion.p
@@ -42,7 +42,7 @@ export default function AboutSection() {
             I am a full-stack developer with a strong focus on creating modern,
             responsive, and user-friendly web applications. I specialize in
             building seamless front-end interfaces with React and developing
-            scalable back-end systems using Node.js and MongoDB.
+            scalable back-end systems using Node.js.
           </motion.p>
 
           <motion.p
@@ -52,11 +52,11 @@ export default function AboutSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-gray-600 leading-8 mb-6"
           >
-            My goal is to transform ideas into functional digital products that
-            are not only visually appealing but also efficient, secure, and easy
-            to use. I enjoy solving real-world problems and continuously
-            improving my skills to stay aligned with modern development
-            standards.
+            My goal is to reform innovative ideas into functional Web products that
+            are not only visually appealing but also effective, secure, and user friendly.
+            I relish solving real-world problems and continuously
+            improving my skills to be coversant with recent development
+            standards in order to remain relevant in the Tech space.
           </motion.p>
 
           {/* Stats */}
@@ -68,12 +68,12 @@ export default function AboutSection() {
             className="flex gap-8 mt-6"
           >
             <div>
-              <h3 className="text-2xl font-bold text-gray-900">40+</h3>
+              <h3 className="text-2xl font-bold text-gray-900">5</h3>
               <p className="text-gray-500 text-sm">Projects Built</p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-gray-900">4+</h3>
+              <h3 className="text-2xl font-bold text-gray-900">2</h3>
               <p className="text-gray-500 text-sm">Years Experience</p>
             </div>
           </motion.div>
@@ -97,6 +97,7 @@ export default function AboutSection() {
             <li>✔ Create modern UI/UX interfaces</li>
             <li>✔ Integrate APIs and backend services</li>
             <li>✔ Optimize performance and scalability</li>
+            <li>✔ Tech Tutoring</li>
           </ul>
         </motion.div>
       </div>

@@ -33,8 +33,8 @@ export default function ContactSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-[#475467] text-base sm:text-lg leading-8 max-w-2xl mx-auto mb-12"
         >
-          I’m a full-stack engineer available for freelance projects,
-          collaborations, and full-time opportunities. If you have an idea or a
+          I’m a full-stack developer open to freelance projects,
+          collaborations, training sessions and full-time opportunities. If you have an idea or a
           project in mind, feel free to reach out.
         </motion.p>
 
@@ -55,10 +55,10 @@ export default function ContactSection() {
             <div>
               <p className="text-sm text-[#667085] mb-1">Email</p>
               <a
-                href="mailto:adeolaisaiah01@gmail.com"
+                href="mailto:stephenajao97@gmail.com"
                 className="text-[#0F172A] font-semibold hover:text-[#0EA5A4] transition break-all"
               >
-                adeolaisaiah01@gmail.com
+                stephenajao97@gmail.com
               </a>
             </div>
           </motion.div>
@@ -78,12 +78,12 @@ export default function ContactSection() {
             <div>
               <p className="text-sm text-[#667085] mb-1">WhatsApp</p>
               <a
-                href="https://wa.me/2348089386770"
+                href="https://wa.me/2348148853284"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0F172A] font-semibold hover:text-[#0EA5A4] transition"
               >
-                +234 808 938 6770
+                +234 814 885 3284
               </a>
             </div>
           </motion.div>
@@ -98,7 +98,7 @@ export default function ContactSection() {
           className="flex flex-col sm:flex-row justify-center gap-4"
         >
           <a
-            href="mailto:adeolaisaiah01@gmail.com"
+            href="mailto:stephenajao97@gmail.com"
             className="inline-flex items-center justify-center gap-2 bg-[#0EA5A4] hover:bg-[#0B8E8D] text-white px-6 py-3 rounded-2xl font-semibold transition"
           >
             <Mail size={18} />
@@ -106,7 +106,7 @@ export default function ContactSection() {
           </a>
 
           <a
-            href="https://wa.me/2348089386770"
+            href="https://wa.me/2348148853284"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 border border-[#0EA5A4] text-[#0EA5A4] hover:bg-[#ECFDFD] px-6 py-3 rounded-2xl font-semibold transition"
@@ -124,7 +124,7 @@ export default function ContactSection() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="text-[#98A2B3] text-sm mt-10"
         >
-          I typically respond within a few hours.
+          I literally responds almost immediately.
         </motion.p>
       </div>
     </section>

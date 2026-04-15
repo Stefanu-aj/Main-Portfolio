@@ -7,7 +7,7 @@ export default function Footer() {
         {/* BRAND */}
         <div>
           <h2 className="text-xl font-semibold text-white">
-            Adeola <span className="text-teal-400 italic">Isaiah</span>
+            Stephen <span className="text-teal-400 italic">Ajao</span>
           </h2>
           <p className="mt-4 text-sm leading-relaxed text-gray-400">
             Full-stack developer focused on building modern, scalable, and
@@ -55,6 +55,8 @@ export default function Footer() {
             <li>Frontend Development</li>
             <li>Backend Development</li>
             <li>API Integration</li>
+            <li>AI Engineering</li>
+            <li>Tech Tutoring</li>
           </ul>
         </div>
 
@@ -62,8 +64,8 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-medium mb-4">Contact</h3>
           <ul className="space-y-3 text-sm">
-            <li>Email: adeolaisaiah01@gmail.com</li>
-            <li>Phone: +2348089386770</li>
+            <li>Email: stephenajao97@gmail.com</li>
+            <li>Phone: +2348148853284</li>
             <li>Ibadan, Nigeria</li>
           </ul>
         </div>
@@ -73,7 +75,7 @@ export default function Footer() {
       <div className="border-t border-gray-700">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
           <p>
-            © {new Date().getFullYear()} Adeola Isaiah. All rights reserved.
+            © {new Date().getFullYear()} Stephen Ajao. All rights reserved.
           </p>
 
           <div className="flex gap-5">
@@ -81,7 +83,7 @@ export default function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://github.com/isaiah973"
+              href="https://github.com/stefanu_aj"
               className="hover:text-white transition"
             >
               <FaGithub />
