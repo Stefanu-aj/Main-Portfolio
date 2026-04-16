@@ -79,17 +79,22 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-5">
-            <a href="#" className="hover:text-white transition">
+            <a href="https://www.linkedin.com/in/stephen-ajao-413423194?trk=contact-info" className="hover:text-white transition">
               <FaLinkedin />
             </a>
             <a
               href="https://github.com/stefanu_aj"
-              className="hover:text-white transition"
-            >
+              className="hover:text-white transition">
               <FaGithub />
             </a>
-            <a href="#" className="hover:text-white transition">
-              <FaTwitter />
+            <a href="https://x.com/stefanu_ajao" className="hover:text-white transition">
+              <Fa-x-Twitter />
+            </a>
+            <a href="https://m.facebook.com/ajaostefanu" className="hover:text-white transition">
+              <FaFacebook />
+            </a>
+            <a href="https://www.instagram.com/stefanu_ajao/" className="hover:text-white transition">
+              <FaInstagram />
             </a>
           </div>
         </div>

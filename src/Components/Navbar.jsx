@@ -77,8 +77,8 @@ export default function Navbar() {
             onClick={closeMobileMenu}
             className="text-[19px] font-semibold text-[#0F172A] tracking-tight"
           >
-            Adeola
-            <span className="text-teal-400 italic">Isaiah</span>
+            Stephen
+            <span className="text-teal-400 italic">Ajao</span>
           </a>
 
           <ul className="hidden md:flex items-center gap-10 text-[14.5px] text-gray-600">

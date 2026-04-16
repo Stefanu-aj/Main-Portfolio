@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section
-      className="w-full min-h-screen pt-[72px] flex items-center justify-center bg-[#f8f9fc] font-[Poppins] px-6"
+      className="w-full min-h-screen pt-40 flex items-center justify-center bg-[#f8f9fc] font-[Poppins] px-6"
       style={{
         backfaceVisibility: "hidden",
         WebkitBackfaceVisibility: "hidden",
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-4xl sm:text-5xl md:text-6xl font-semibold text-gray-900 leading-tight"
         >
-          I design, build & manage <br />
+          I build & manage <br />
           <span className="bg-gradient-to-r from-teal-500 to-blue-500 text-transparent bg-clip-text">
             web applications
           </span>
@@ -37,8 +37,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-6 text-gray-500 text-base sm:text-lg leading-relaxed"
         >
-          Full-stack developer specializing in React and modern UI systems. I
-          create clean and responsive user-focused digital experiences.
+          Full-stack developer specializing in React and modern UI systems. <br />
+          I create clean and responsive user-focused digital experiences.
         </motion.p>
 
         <motion.div
@@ -57,6 +57,12 @@ export default function Hero() {
           <a href="/files/Stephen Ajao_Resume.pdf" download>
             <button className="bg-teal-600 text-white px-6 py-3 rounded-lg text-sm font-medium shadow-sm hover:bg-teal-700 transition">
               Download CV
+            </button>
+          </a>
+
+          <a href="/files/Certifications.zip" download>
+            <button className="bg-white text-teal-600 px-4 py-3 rounded-lg text-sm font-medium shadow-sm hover:bg-white transition">
+              Certifications
             </button>
           </a>
         </motion.div>
