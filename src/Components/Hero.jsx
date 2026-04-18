@@ -61,7 +61,7 @@ export default function Hero() {
           </a>
 
           <a href="/files/Certifications.zip" download>
-            <button className="bg-white text-teal-600 px-4 py-3 rounded-lg text-sm font-medium shadow-sm hover:bg-white transition">
+            <button className="bg-white text-teal-600 px-4 py-3 rounded-lg text-sm font-medium shadow-sm hover:bg-teal-600 transition">
               Certifications
             </button>
           </a>

@@ -33,6 +33,16 @@ export default function PortfolioSection() {
       techStack: ["React", "JavaScript", "Tailwind CSS"],
       liveLink: "https://teswacompetition.vercel.app",
     },
+    {
+      id: 4,
+      title: "Weather App",
+      category: "Variable Frontend Project",
+      image: "\images\Weather App.png",
+      description:
+        "A variable Weather App with excellent user interface and functional-current weather fetching.",
+      techStack: ["HTML5", "CSS", "JavaScript"],
+      liveLink: "",
+    },
   ];
 
   return (
